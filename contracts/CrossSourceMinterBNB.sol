@@ -31,7 +31,7 @@ contract CrossSourceMinterBnb {
 
         // https://docs.chain.link/ccip/supported-networks/testnet
 
-        // from Mumbai
+        // from BNB (changed from Mumbai.)
         address routerAddressMumbai = 0xE1053aE1857476f36A3C62580FF9b016E8EE8F6f;
         router = IRouterClient(routerAddressMumbai);
         linkToken = LinkTokenInterface(0x84b9B910527Ad5C03A9Ca831909E21e236EA7b06);
